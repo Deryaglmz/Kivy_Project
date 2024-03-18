@@ -16,7 +16,7 @@ class giris(GridLayout):
 
     self.sifreyazi = Label(text = "Password: ")
     self.add_widget(self.sifreyazi)
-    self.sifre = TextInput(multiline = False)
+    self.sifre = TextInput(multiline = False, password = true)
     self.add_widget(self.sifre)
 
 
